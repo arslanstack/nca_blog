@@ -1,0 +1,96 @@
+/*
+* Normalize
+* ================ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: top; }
+
+input, textarea {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  vertical-align: top; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, main, time, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ''; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button, input, textarea, select {
+  display: inline-block;
+  outline: none;
+  color: inherit;
+  overflow: visible;
+  box-shadow: none; }
+
+button,
+input[type='button'],
+input[type='submit'] {
+  cursor: pointer; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/*
+* @bugfix input text-overflow padding ignore
+* @affected lt IE11
+*/
+.lt-ie11 input {
+  border-left: 1px solid rgba(0, 0, 0, 0);
+  border-right: 1px solid rgba(0, 0, 0, 0);
+  border-bottom-left-radius: 1px !important; }
+
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none; }
+  a:focus {
+    outline: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+button, .btn {
+  background-color: inherit; }
+  button:focus, button:active, .btn:focus, .btn:active {
+    outline: none; }
+
+/*a, button, input {
+	transition: .3s all ease;
+}*/
+input[type="search"] {
+  box-sizing: border-box !important; }
+
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+  -webkit-appearance: none; }

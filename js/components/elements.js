@@ -1,0 +1,1 @@
+!function(i){"use strict";Berserk.behaviors.element_init={attach:function(t,e){i(t).parent().find(".brk-sc-item-page-tabs:not(.rendered)").addClass("rendered").each(function(){var e=i(this);setTimeout(function(){var t=e.find(".brk-sc-item-page-tabs__title").outerWidth();e.find(".brk-tabs-nav").css("min-width",t)},300)})}}}(jQuery);

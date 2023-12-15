@@ -1,0 +1,1 @@
+!function(n){"use strict";Berserk.behaviors.tags_bubble_init={attach:function(e,t){n(".brk-tags_bubble:not(.rendered)").addClass("rendered").find("li a").each(function(){var i=n(this);setTimeout(function(){var e=i.innerWidth(),t=i.parent();i.css("height",e),t.css("width",e)},800)})}}}(jQuery);

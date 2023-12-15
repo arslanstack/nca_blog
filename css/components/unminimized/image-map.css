@@ -1,0 +1,14 @@
+.brk-image-map {
+  z-index: 9; }
+  @media (min-width: 992px) {
+    .brk-image-map_absolute-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: auto;
+      max-width: 100%;
+      height: auto; } }
+
+.brk-image-map_full-width .imp-wrap {
+  max-width: none !important;
+  width: 100%; }

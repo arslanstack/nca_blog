@@ -1,0 +1,51 @@
+/* ----------- Palette variable ----------- */
+:root {
+  --brand-primary: #d0a05e;
+  --secondary: #d0a05e;
+  --white: #fff;
+  --black: #000;
+  --brk-dark-base: #272727;
+  --brk-base-1: #d0a05e;
+  --brk-base-2: #d0a05e;
+  --brk-base-3: #d0a05e;
+  --brk-base-4: #ffe6b6;
+  --brk-base-5: #ffe3b0;
+  --brk-base-6: #d0a05e;
+  --brk-base-7: #d0a05e;
+  --brk-base-8: #d0a05e;
+  --brk-secondary-1: #d0a05e;
+  --brk-secondary-2: #d0a05e;
+  --brk-secondary-3: #d0a05e;
+  --brk-secondary-4: #d0a05e;
+  --brk-secondary-5: #d0a05e;
+  --brk-secondary-6: #d0a05e;
+  --text-base-color-1: #c4c4c4;
+  --text-base-color-2: #c4955c;
+  --text-base-color-3: #f3f3f3;
+  --form-color-1: #d4d2d2;
+  --brand-primary-rgb: 208, 160, 94;
+  --secondary-rgb: 208, 160, 94;
+  --white-rgb: 255, 255, 255;
+  --black-rgb: 0, 0, 0;
+  --brk-dark-base-rgb: 39, 39, 39;
+  --brk-base-1-rgb: 208, 160, 94;
+  --brk-base-2-rgb: 208, 160, 94;
+  --brk-base-3-rgb: 208, 160, 94;
+  --brk-base-4-rgb: 255, 230, 182;
+  --brk-base-5-rgb: 255, 227, 176;
+  --brk-base-6-rgb: 208, 160, 94;
+  --brk-base-7-rgb: 208, 160, 94;
+  --brk-base-8-rgb: 208, 160, 94;
+  --brk-secondary-1-rgb: 208, 160, 94;
+  --brk-secondary-2-rgb: 208, 160, 94;
+  --brk-secondary-3-rgb: 208, 160, 94;
+  --brk-secondary-4-rgb: 208, 160, 94;
+  --brk-secondary-5-rgb: 208, 160, 94;
+  --brk-secondary-6-rgb: 208, 160, 94;
+  --text-base-color-1-rgb: 196, 196, 196;
+  --text-base-color-2-rgb: 196, 149, 92;
+  --text-base-color-3-rgb: 243, 243, 243;
+  --form-color-1-rgb: 212, 210, 210;
+  --b-radius: inherit; }
+
+/* ----------- Palette variable ----------- */

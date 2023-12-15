@@ -1,0 +1,44 @@
+/*
+* Type styles
+* ================ */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  vertical-align: baseline;
+  display: block;
+  color: #292B2C;
+  font-weight: 400; }
+  h1 a:focus, h1 a:hover, h2 a:focus, h2 a:hover, h3 a:focus, h3 a:hover, h4 a:focus, h4 a:hover, h5 a:focus, h5 a:hover, h6 a:focus, h6 a:hover, .h1 a:focus, .h1 a:hover, .h2 a:focus, .h2 a:hover, .h3 a:focus, .h3 a:hover, .h4 a:focus, .h4 a:hover, .h5 a:focus, .h5 a:hover, .h6 a:focus, .h6 a:hover {
+    color: var(--brand-primary);
+    text-decoration: none; }
+
+h1, .h1 {
+  font-size: 40px;
+  line-height: 1.1; }
+  @media (min-width: 576px) {
+    h1, .h1 {
+      font-size: 56px; } }
+
+h2, .h2 {
+  font-size: 35px;
+  line-height: 1.1; }
+  @media (min-width: 576px) {
+    h2, .h2 {
+      font-size: 42px; } }
+
+h3, .h3 {
+  font-size: 30px;
+  line-height: 1.1; }
+  @media (min-width: 576px) {
+    h3, .h3 {
+      font-size: 36px; } }
+
+h4, .h4 {
+  font-size: 24px;
+  line-height: 1.1; }
+
+h5, .h5 {
+  font-size: 18px;
+  line-height: 1.1; }
+
+h6, .h6 {
+  font-size: 15px;
+  line-height: 1.1; }

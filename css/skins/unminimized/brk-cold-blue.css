@@ -1,0 +1,51 @@
+/* ----------- Palette variable ----------- */
+:root {
+  --brand-primary: #1d3268;
+  --secondary: #1d3268;
+  --white: #fff;
+  --black: #000;
+  --brk-dark-base: #172236;
+  --brk-base-1: #1d3268;
+  --brk-base-2: #1d3268;
+  --brk-base-3: #1d3268;
+  --brk-base-4: #f7f8fb;
+  --brk-base-5: #1d3268;
+  --brk-base-6: #1d3268;
+  --brk-base-7: #1d3268;
+  --brk-base-8: #1d3268;
+  --brk-secondary-1: #1d3268;
+  --brk-secondary-2: #1d3268;
+  --brk-secondary-3: #1d3268;
+  --brk-secondary-4: #1d3268;
+  --brk-secondary-5: #1d3268;
+  --brk-secondary-6: #1d3268;
+  --text-base-color-1: #c4c4c4;
+  --text-base-color-2: #1d3268;
+  --text-base-color-3: #f3f3f3;
+  --form-color-1: #e8ecff;
+  --brand-primary-rgb: 29, 50, 104;
+  --secondary-rgb: 29, 50, 104;
+  --white-rgb: 255, 255, 255;
+  --black-rgb: 0, 0, 0;
+  --brk-dark-base-rgb: 23, 34, 54;
+  --brk-base-1-rgb: 29, 50, 104;
+  --brk-base-2-rgb: 29, 50, 104;
+  --brk-base-3-rgb: 29, 50, 104;
+  --brk-base-4-rgb: 247, 248, 251;
+  --brk-base-5-rgb: 29, 50, 104;
+  --brk-base-6-rgb: 29, 50, 104;
+  --brk-base-7-rgb: 29, 50, 104;
+  --brk-base-8-rgb: 29, 50, 104;
+  --brk-secondary-1-rgb: 29, 50, 104;
+  --brk-secondary-2-rgb: 29, 50, 104;
+  --brk-secondary-3-rgb: 29, 50, 104;
+  --brk-secondary-4-rgb: 29, 50, 104;
+  --brk-secondary-5-rgb: 29, 50, 104;
+  --brk-secondary-6-rgb: 29, 50, 104;
+  --text-base-color-1-rgb: 196, 196, 196;
+  --text-base-color-2-rgb: 29, 50, 104;
+  --text-base-color-3-rgb: 243, 243, 243;
+  --form-color-1-rgb: 232, 236, 255;
+  --b-radius: inherit; }
+
+/* ----------- Palette variable ----------- */

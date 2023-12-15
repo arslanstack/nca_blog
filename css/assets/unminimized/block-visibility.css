@@ -1,0 +1,86 @@
+/*
+* Blocks visibility
+* ================ */
+.show-flex {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: flex !important; }
+
+.show-inline-block {
+  display: inline-block !important; }
+
+.show-block {
+  display: block !important; }
+
+.hide {
+  display: none !important; }
+
+@media (min-width: 0) {
+  .show-xs-block {
+    display: block !important; }
+  .show-xs-inline-block {
+    display: inline-block !important; }
+  .show-xs-inline {
+    display: inline !important; }
+  .show-xs-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: flex !important; }
+  .hide-xs {
+    display: none !important; } }
+
+@media (min-width: 576px) {
+  .show-sm-block {
+    display: block !important; }
+  .show-sm-inline-block {
+    display: inline-block !important; }
+  .show-sm-inline {
+    display: inline !important; }
+  .show-sm-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: flex !important; }
+  .hide-sm {
+    display: none !important; } }
+
+@media (min-width: 768px) {
+  .show-md-block {
+    display: block !important; }
+  .show-md-inline-block {
+    display: inline-block !important; }
+  .show-md-inline {
+    display: inline !important; }
+  .show-md-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: flex !important; }
+  .hide-md {
+    display: none !important; } }
+
+@media (min-width: 992px) {
+  .show-lg-block {
+    display: block !important; }
+  .show-lg-inline-block {
+    display: inline-block !important; }
+  .show-lg-inline {
+    display: inline !important; }
+  .show-lg-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: flex !important; }
+  .hide-lg {
+    display: none !important; } }
+
+@media (min-width: 1230px) {
+  .show-xl-block {
+    display: block !important; }
+  .show-xl-inline-block {
+    display: inline-block !important; }
+  .show-xl-inline {
+    display: inline !important; }
+  .show-xl-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: flex !important; }
+  .hide-xl {
+    display: none !important; } }

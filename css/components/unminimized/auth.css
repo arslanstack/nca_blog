@@ -1,0 +1,64 @@
+.brk-login-page .brk-backgrounds {
+  z-index: -10; }
+
+.brk-login-page__box {
+  width: 50%;
+  max-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 50%;
+  position: absolute;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-transition: .7s margin-left;
+  transition: .7s margin-left; }
+  @media screen and (max-width: 992px) {
+    .brk-login-page__box {
+      width: 80%; } }
+
+.brk-login-page__wrapper {
+  width: 200%;
+  height: 100%;
+  position: relative;
+  left: -100%;
+  -webkit-transition: .7s margin-left;
+  transition: .7s margin-left; }
+
+.brk-login-page__sign-in, .brk-login-page__sign-up {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  background: #f9f9f9; }
+
+.brk-login-page__sign-in {
+  right: 0; }
+
+.brk-login-page__sign-up {
+  left: 0; }
+
+.brk-login-page__content {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  min-height: 100%;
+  width: 55%;
+  margin: 0 auto; }
+  @media screen and (max-width: 992px) {
+    .brk-login-page__content {
+      width: 80%; } }
+
+.brk-login-page__logo {
+  position: absolute;
+  top: 65px;
+  left: 0; }
+
+@media screen and (max-width: 500px) {
+  .brk-login-page__buttons .btn {
+    width: 100%; }
+    .brk-login-page__buttons .btn:last-child {
+      margin-top: 10px !important; } }

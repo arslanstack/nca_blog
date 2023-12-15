@@ -1,0 +1,209 @@
+.svg-pattern-example {
+  width: 100%;
+  overflow: hidden;
+  min-height: 500px;
+  background-image: url(../../img/home-page/bg-4.jpg);
+  position: relative; }
+  .svg-pattern-example::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4); }
+
+.brk-svg-pattern-container {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  z-index: 3;
+  left: 0; }
+  .brk-svg-pattern-container svg {
+    position: absolute;
+    width: -webkit-calc(100% + 2px);
+    width: calc(100% + 2px);
+    left: 0; }
+  .brk-svg-pattern-container_top {
+    top: -2px; }
+    .brk-svg-pattern-container_top svg {
+      top: -5px; }
+  .brk-svg-pattern-container_bottom {
+    bottom: -2px; }
+    .brk-svg-pattern-container_bottom svg {
+      bottom: -5px; }
+  .brk-svg-pattern-container_top-outer {
+    top: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%); }
+  .brk-svg-pattern-container_rotate-y svg {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg); }
+  .brk-svg-pattern-container_rotate-x svg {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg); }
+
+.brk-svg-pattern-container-1 {
+  height: 150px; }
+
+.brk-svg-pattern-container-2 {
+  height: 200px; }
+
+.brk-svg-pattern-container-3 {
+  height: 150px; }
+
+.brk-svg-pattern-container-4 {
+  height: 280px; }
+
+.brk-svg-pattern-container-5 {
+  height: 120px; }
+  .brk-svg-pattern-container-5 svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-6 {
+  height: 120px; }
+  .brk-svg-pattern-container-6 svg {
+    top: 0; }
+
+.brk-svg-pattern-container-7-top {
+  height: 150px; }
+  .brk-svg-pattern-container-7-top svg {
+    top: 0; }
+
+.brk-svg-pattern-container-7-bottom {
+  height: 150px; }
+  .brk-svg-pattern-container-7-bottom svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-8 {
+  height: 200px; }
+  .brk-svg-pattern-container-8 svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-9-top {
+  height: 700px; }
+  .brk-svg-pattern-container-9-top svg {
+    top: -10px;
+    width: -webkit-calc(100% + 70px);
+    width: calc(100% + 70px);
+    left: -20px; }
+
+.brk-svg-pattern-container-9-bottom {
+  height: 100px; }
+  .brk-svg-pattern-container-9-bottom svg {
+    bottom: 0;
+    left: -10px;
+    width: -webkit-calc(100% + 140px);
+    width: calc(100% + 140px); }
+
+.brk-svg-pattern-container-10-top {
+  height: 210px; }
+  .brk-svg-pattern-container-10-top svg {
+    top: 0;
+    left: -20px;
+    width: -webkit-calc(100% + 120px);
+    width: calc(100% + 120px); }
+
+.brk-svg-pattern-container-10-bottom {
+  height: 390px; }
+  .brk-svg-pattern-container-10-bottom svg {
+    bottom: 0;
+    left: -20px;
+    width: -webkit-calc(100% + 220px);
+    width: calc(100% + 220px); }
+
+.brk-svg-pattern-container-11-top {
+  height: 270px; }
+  .brk-svg-pattern-container-11-top svg {
+    top: 0; }
+
+.brk-svg-pattern-container-11-bottom {
+  height: 85px; }
+  .brk-svg-pattern-container-11-bottom svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-12-top {
+  height: 190px; }
+  .brk-svg-pattern-container-12-top svg {
+    top: 0; }
+
+.brk-svg-pattern-container-12-bottom {
+  height: 130px; }
+  .brk-svg-pattern-container-12-bottom svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-13 {
+  height: 335px; }
+  .brk-svg-pattern-container-13 svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-14-top {
+  height: 120px; }
+  .brk-svg-pattern-container-14-top svg {
+    top: 0;
+    left: -5px; }
+
+.brk-svg-pattern-container-14-bottom {
+  height: 220px; }
+  .brk-svg-pattern-container-14-bottom svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-15-top {
+  height: 240px; }
+  .brk-svg-pattern-container-15-top svg {
+    top: 0; }
+
+.brk-svg-pattern-container-15-bottom {
+  height: 140px; }
+  .brk-svg-pattern-container-15-bottom svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-16 {
+  height: 260px; }
+  .brk-svg-pattern-container-16 svg {
+    bottom: 0; }
+
+.brk-svg-pattern-container-17 {
+  height: 180px; }
+  .brk-svg-pattern-container-17 svg {
+    top: 0; }
+
+.brk-svg-pattern-container-18 {
+  height: 180px; }
+  .brk-svg-pattern-container-18 svg {
+    top: 0; }
+
+.brk-svg-pattern-container-19 {
+  height: 75px; }
+  .brk-svg-pattern-container-19 svg {
+    top: 0; }
+
+.brk-svg-pattern-container-20 {
+  height: 140px; }
+  .brk-svg-pattern-container-20 svg {
+    top: 0; }
+
+.brk-svg-pattern-container-21 {
+  height: 150px; }
+  .brk-svg-pattern-container-21 svg {
+    top: 0; }
+
+.brk-svg-pattern-container-22 {
+  height: 50px; }
+  .brk-svg-pattern-container-22.brk-svg-pattern-container_top {
+    background-position-y: -50px; }
+  .brk-svg-pattern-container-22.brk-svg-pattern-container_bottom {
+    background-position-y: 100px; }
+
+.brk-svg-pattern-container-23 {
+  height: 5px; }
+  .brk-svg-pattern-container-23.brk-svg-pattern-container_top {
+    background-position-y: -1px; }
+  .brk-svg-pattern-container-23.brk-svg-pattern-container_bottom {
+    background-position-y: -19px; }
+
+.brk-svg-pattern-container-24 {
+  height: 150px; }
+  .brk-svg-pattern-container-24 svg {
+    top: 2px; }

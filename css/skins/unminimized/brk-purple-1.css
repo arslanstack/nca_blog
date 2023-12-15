@@ -1,0 +1,65 @@
+/* ----------- Palette variable ----------- */
+:root {
+  --brand-primary: #6d52c2;
+  --secondary: #8b40cc;
+  --white: #fff;
+  --black: #000;
+  --brk-dark-base: #272727;
+  --brk-base-1: #8f83d3;
+  --brk-base-2: #3e52af;
+  --brk-base-3: #5a4796;
+  --brk-base-4: #e9e1f4;
+  --brk-base-5: #3e67af;
+  --brk-base-6: #4747a8;
+  --brk-base-7: #b1b9e3;
+  --brk-base-8: #662c7c;
+  --brk-secondary-1: #9995b7;
+  --brk-secondary-2: #703bce;
+  --brk-secondary-3: #8d3bce;
+  --brk-secondary-4: #6d52c2;
+  --brk-secondary-5: #bac1d7;
+  --brk-secondary-6: #b97ade;
+  --text-base-color-1: #c4c4c4;
+  --text-base-color-2: #5a4796;
+  --text-base-color-3: #f3f3f3;
+  --form-color-1: #e8ecff;
+  --brand-primary-rgb: 108.75567, 82.00158, 193.99542;
+  --secondary-rgb: 139.42317, 63.99636, 204.00264;
+  --white-rgb: 255, 255, 255;
+  --black-rgb: 0, 0, 0;
+  --brk-dark-base-rgb: 39, 39, 39;
+  --brk-base-1-rgb: 142.5883, 130.79538, 211.20162;
+  --brk-base-2-rgb: 61.78512, 81.80161, 175.21188;
+  --brk-base-3-rgb: 90.30057, 71.48402, 149.51298;
+  --brk-base-4-rgb: 233.04803, 224.68648, 244.31052;
+  --brk-base-5-rgb: 61.78512, 103.15253, 175.21188;
+  --brk-base-6-rgb: 70.80839, 70.80839, 168.18861;
+  --brk-base-7-rgb: 176.63198, 185.39496, 227.36502;
+  --brk-base-8-rgb: 101.54891, 43.79682, 124.20018;
+  --brk-secondary-1-rgb: 153.05702, 149.21109, 182.78791;
+  --brk-secondary-2-rgb: 111.64533, 59.03595, 205.96305;
+  --brk-secondary-3-rgb: 140.87276, 59.03595, 205.96305;
+  --brk-secondary-4-rgb: 108.75567, 82.00158, 193.99542;
+  --brk-secondary-5-rgb: 186.36891, 192.81124, 214.63009;
+  --brk-secondary-6-rgb: 185.06978, 122.2241, 221.7749;
+  --text-base-color-1-rgb: 196, 196, 196;
+  --text-base-color-2-rgb: 90.30057, 71.48402, 149.51298;
+  --text-base-color-3-rgb: 243, 243, 243;
+  --form-color-1-rgb: 232, 236, 255;
+  --b-radius: inherit; }
+
+/* ----------- Palette variable ----------- */
+.brk-pricing-horizontal .h-button {
+  box-shadow: none !important; }
+
+.brk-pricing-horizontal:hover .h-button {
+  box-shadow: 0 0 0 6px rgba(var(--white-rgb), 0.14) !important; }
+
+.brk-pricing-horizontal:hover .brk-pricing-horizontal__viewed {
+  background-color: #644cb3 !important; }
+
+.brk-pricing-horizontal:hover .brk-pricing-horizontal__viewed > * {
+  color: #fff; }
+
+.brk-abs-bg-overlay.brk-hosted-video__before {
+  display: none; }

@@ -1,0 +1,1 @@
+!function(t){"use strict";Berserk.behaviors.alerts_init={attach:function(n,e){var r=t(n).parent().find(".alert:not(.rendered)");r.each(function(){r.addClass("rendered");var n={};t(window).on("scroll",function(){r.each(function(){n=t(this),(n=t(this)).isOnScreen()&&n.addClass("show")})}).trigger("scroll")})}}}(jQuery);

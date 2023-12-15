@@ -1,0 +1,1 @@
+!function(e){"use strict";Berserk.behaviors.pagination_init={attach:function(t,n){var i,r,a;i=e(".brk-pagination-two .current",t),r=e(".brk-pagination-two .prev"),a=e(".brk-pagination-two .next"),i.before(r),i.after(a)}}}(jQuery);
