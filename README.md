@@ -6,7 +6,7 @@
 
 In this project, my primary focus was on:
 
-- **CMS**: Building a custom Laravel Based CMS
+- **CMS**: Building a custom Laravel Based Content Management System.
 - **SEO Optimized Slugs**: Using complex logic to automate custom permalinks based on slugs derived from titles using regex
 - **Laravel API**: Building and Integrating Laravel APIs for Bootstrap based frontend User Facing Application.
 
